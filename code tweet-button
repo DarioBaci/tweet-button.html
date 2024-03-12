@@ -1,0 +1,56 @@
+<html>
+
+<head>
+
+    <title>
+        Tweet Button
+      </title>
+      
+      <meta name="description" content="Tweet button">
+
+</head>
+
+<body>
+<style>
+        .tweet-button{
+            background-color:rgb(34, 123, 240);
+            color: white;
+            border:none;
+            border-radius: 40px;
+            padding-top:8px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 8px;
+            font-family: Arial;
+            font-weight: bolder;
+            transition: box-shadow 0.25s,color 0.25s,background-color 0.25s, border-color 0.25s, 
+                        border 0.25s, font-weight 0.25s, border-width 0.25s,font-family;
+            cursor:pointer;
+        }
+
+        .tweet-button:hover{
+            box-shadow:2px 2px 3px rgba(0, 0, 0, 0.25) ;
+            border:solid;
+            border-color:rgb(34, 123, 240);
+            color: rgb(34, 123, 240);
+            background-color: white;
+            font-weight: bolder;
+            border-width: 0.5px;
+            font-family: arial;
+        }
+
+        .tweet-button:active{
+            opacity: 0.8;
+        }
+</style>
+
+<button class="tweet-button">
+    Tweet
+</button>
+
+</body>
+
+
+
+
+</html>
